@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    text-align: justify;
+    background-color:#84E1AD ;   
+}
+
+div#principal{
+    background-color: rgb(255, 255, 255);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.342);
+   
+}
+#principal p {
+    
+}
+div.video{
+    background-color: #1A5B38;
+    margin: 0px -40px 30px -40px;
+    padding: 20px;
+    position: relative;
+}
+div.video>iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+a.externo::after{
+    content: '\1F517';
+}
+div#foto {
+   text-align: center;
+}
+
+main >h3 {
+   background-image: linear-gradient(to right,#1a5b3898, transparent );
+}
+
+main > h2,h3{
+    font:normal 1em 'idroid', sans-serif;
+   color: #1A5B38;
+   font-size: 1.5em;
+    }
+main p {
+    text-indent: 30px;
+    line-height: 2em;
+}
+main strong {
+    color: #1A5B38;
+    
+}
+strong {
+    color: #1A5B38;
+}
+footer a:hover{
+    background-color:#0faa5873 ;
+}
+footer a{
+     color: #1A5B38;
+    background-color: #1a5b388a;
+    padding: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+
+}
+main a {
+    color: #1A5B38;
+    background-color: #1a5b388a;
+    padding: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+main a:hover {
+    background-color: #0faa5873;
+}
+header > h1 {
+    font-size: 2em;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.342);
+    
+}
+header > p,h1 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    
+}
+div#menu > a{
+   color: rgb(163, 160, 160);
+   text-decoration: none;
+   font-weight: bold;
+   margin-right: 20px;
+   padding: 8px;
+   border-radius: 5px;
+}
+div#menu >a:hover {
+    background-color: #1A5B38;
+}
+
+header{
+    padding: 10px;
+     margin: -10px -10px 0px -10px;
+    background-image: linear-gradient( to top,#1A5B38,#3AD07E);
+}
+
+footer > h2{
+    background-color: #1A5B38;
+    color: white;
+   padding: 10px;
+   border-radius: 5px 5px 0px 0px;
+   margin: 10px -10px 10px -10px;
+}
+footer {
+    background-color: #2fa86563;
+    border-radius: 5px ;
+    padding: 0px 10px;
+}
+
+footer ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside ;
+    columns: 2;
+}
+div#criador {
+    background-color: #1A5B38;
+    color: white;
+    padding: 5px;
+    margin: 0px -10px -10px -10px;
+    text-align: center;
+}
+#criador strong {
+    color: rgb(255, 255, 255);
+}
