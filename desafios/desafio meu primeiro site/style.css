@@ -9,7 +9,7 @@
 
 body{
     text-align: justify;
-    background-color:#84E1AD ;   
+    background-color:#84E1AD;
 }
 
 div#principal{
@@ -20,15 +20,13 @@ div#principal{
     padding-bottom: 0px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    min-width: 320px;
+    min-width: 350px;
     max-width: 800px;
     margin: auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.342);
    
 }
-#principal p {
-    
-}
+
 div.video{
     background-color: #1A5B38;
     margin: 0px -40px 30px -40px;
@@ -47,6 +45,9 @@ a.externo::after{
 }
 div#foto {
    text-align: center;
+}
+div#imagem{
+    width: 700px;
 }
 
 main >h3 {
