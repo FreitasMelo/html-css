@@ -8,11 +8,11 @@ header{
     color: white;
 }
 main {
-    background-size: 3000px;
+    background-size: 4000px;
     background-repeat: no-repeat;
     background-image: url(imagens/seamless-heart-pattern-day-design-260nw-2726137645.webp) ;
     padding: 20px;
-    margin: 10px;
+    margin: -5px;
 }
 #eu {
     margin: auto;
