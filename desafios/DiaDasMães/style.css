@@ -9,7 +9,7 @@ header{
 }
 main {
     background-size: 3000px;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-image: url(imagens/seamless-heart-pattern-day-design-260nw-2726137645.webp) ;
     padding: 20px;
     margin: 10px;
