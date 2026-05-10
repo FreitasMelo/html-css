@@ -28,6 +28,7 @@ main >img{
     font-size: 2em;
     text-align: justify;
     color: rgb(255, 255, 255);
+    letter-spacing: -1px;
  }
  h1 {
     text-align: center;
